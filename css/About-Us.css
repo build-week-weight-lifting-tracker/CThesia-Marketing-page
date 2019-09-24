@@ -126,3 +126,34 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+body {
+  margin: 0 auto;
+  width: 1000px;
+}
+body {
+  margin: 0 auto;
+  width: 1000px;
+  color: black;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 20px 20px;
+  background: maroon;
+}
+header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+header a:hover {
+  cursor: pointer;
+  color: maroon;
+  background: white;
+}

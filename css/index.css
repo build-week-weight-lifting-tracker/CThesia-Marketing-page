@@ -133,7 +133,91 @@ body {
 body {
   margin: 0 auto;
   width: 1000px;
+  color: black;
 }
 header {
   display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  padding: 20px 20px;
+  background: maroon;
+}
+header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+header a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+header a:hover {
+  cursor: pointer;
+  color: maroon;
+  background: white;
+}
+.topSection {
+  padding: 20px;
+  text-align: center;
+}
+.topSection img {
+  width: 70%;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+}
+.topSection img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.topSection p {
+  padding-top: 20px;
+  font-size: 3rem;
+  font-weight: 1000;
+}
+.topSection button {
+  font-size: 1.5rem;
+  background-color: maroon;
+  border: none;
+  color: white;
+  margin-top: 20px;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.topSection button:hover {
+  color: maroon;
+  background: white;
+  cursor: pointer;
+}
+.Tracking {
+  padding-top: 20px;
+  display: flex;
+}
+.Tracking .imageTrack {
+  width: 50%;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+}
+.Tracking .imageTrack:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.Planning {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  width: 100%;
+  margin: 0 auto;
+}
+.Planning .imagePlan {
+  margin: 0 0 0 600px;
+  width: 50%;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 10px;
+}
+.Planning .imagePlan:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }

@@ -132,8 +132,7 @@ body {
 }
 body {
   margin: 0 auto;
-  width: 1000px;
-  color: black;
+  width: 70%;
 }
 header {
   display: flex;
@@ -164,7 +163,7 @@ header a:hover {
 .topSection img {
   width: 70%;
   border: 2px solid #ddd;
-  border-radius: 10px;
+  border-radius: 50px;
   padding: 10px;
 }
 .topSection img:hover {
@@ -185,39 +184,114 @@ header a:hover {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border: 3px solid;
+  border-radius: 50px;
 }
 .topSection button:hover {
   color: maroon;
   background: white;
   cursor: pointer;
+  border: 3px solid maroon;
 }
-.Tracking {
+.appFeatures {
   padding-top: 20px;
   display: flex;
 }
-.Tracking .imageTrack {
+.appFeatures img {
   width: 50%;
   border: 2px solid #ddd;
-  border-radius: 10px;
+  border-radius: 60px;
   padding: 10px;
 }
-.Tracking .imageTrack:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+.appFeatures h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  border: 5px solid maroon;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
 }
-.Planning {
+.appFeatures h1:hover {
+  border: 5px solid black;
+  color: maroon;
+  cursor: pointer;
+}
+.appFeatures p {
+  padding: 20px 0 0 20px;
+  font-size: 1.5rem;
+}
+.appFeatures2 {
   padding-top: 20px;
   display: flex;
   flex-direction: row-reverse;
-  width: 100%;
-  margin: 0 auto;
 }
-.Planning .imagePlan {
-  margin: 0 0 0 600px;
+.appFeatures2 img {
   width: 50%;
   border: 2px solid #ddd;
-  border-radius: 10px;
+  border-radius: 60px;
   padding: 10px;
 }
-.Planning .imagePlan:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+.appFeatures2 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  border: 5px solid maroon;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+.appFeatures2 h1:hover {
+  border: 5px solid black;
+  color: maroon;
+  cursor: pointer;
+}
+.appFeatures2 p {
+  padding: 20px 0 0 20px;
+  font-size: 1.5rem;
+}
+footer button {
+  font-size: 1.5rem;
+  background-color: maroon;
+  border: none;
+  color: white;
+  padding: 10px 50px;
+  text-decoration: none;
+  border: 3px solid;
+  border-radius: 50px;
+  margin: 20px 0 20px 580px;
+}
+footer button:hover {
+  color: maroon;
+  background: white;
+  cursor: pointer;
+  border: 3px solid maroon;
+}
+footer nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  padding: 20px 20px;
+  background: maroon;
+}
+footer nav a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 20px 5px 20px;
+}
+footer nav a:hover {
+  cursor: pointer;
+  color: maroon;
+  background: white;
+}
+footer h1 {
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-align: center;
+  border: 3px solid black;
+  margin: 20px 0 20px 0px;
 }

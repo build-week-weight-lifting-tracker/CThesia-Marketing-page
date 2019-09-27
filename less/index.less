@@ -239,17 +239,26 @@ header{
     }
 }
 
+
 footer{
+    margin:0 auto;
+    text-align:center;
+    .signUp{
+        text-align:center;
+        margin:20px 0 20px 0;
+    }
     button{
         font-size:1.5rem;
         background-color:maroon; 
         border: none;
         color: white;
-        padding: 10px 50px;
         text-decoration: none;
         border: 3px solid;
         border-radius: 50px;
-        margin:20px 0 20px 580px;
+        padding:10px 0 10px 0;
+        
+        width:40%;
+
 
         &:hover{
             color:maroon;
@@ -258,15 +267,7 @@ footer{
             border: 3px solid maroon;
         }
 
-        @media @tablet{
-            margin:20px 0 20px 250px;
-        }
-
-        @media @phone{
-            margin:10px 20px 10px 120px;
-            padding:10px;
-            border-radius:10px;
-        }
+    
     }
     
     nav{
@@ -313,4 +314,3 @@ footer{
     }
     
 }
-

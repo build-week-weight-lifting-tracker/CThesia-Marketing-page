@@ -359,34 +359,30 @@ header a:hover {
     font-size: 1.2rem;
   }
 }
+footer {
+  margin: 0 auto;
+  text-align: center;
+}
+footer .signUp {
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
 footer button {
   font-size: 1.5rem;
   background-color: maroon;
   border: none;
   color: white;
-  padding: 10px 50px;
   text-decoration: none;
   border: 3px solid;
   border-radius: 50px;
-  margin: 20px 0 20px 580px;
+  padding: 10px 0 10px 0;
+  width: 40%;
 }
 footer button:hover {
   color: maroon;
   background: white;
   cursor: pointer;
   border: 3px solid maroon;
-}
-@media (max-width:1000px) {
-  footer button {
-    margin: 20px 0 20px 250px;
-  }
-}
-@media (max-width:515px) {
-  footer button {
-    margin: 10px 20px 10px 120px;
-    padding: 10px;
-    border-radius: 10px;
-  }
 }
 footer nav {
   display: flex;
